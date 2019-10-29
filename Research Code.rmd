@@ -1,0 +1,86 @@
+---
+title: "A Clinical Study on Islanders to Investigate the Effect of Psychoactive Drugs and Music on Melatonin Level"
+author: "Will Zhu, Anjum Farook, Nishanth Shetty, Urvashi Rana"
+date: "May 26, 2019"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+Sleep.Data <- read.csv("C:/Users/Nishanth Shetty/Desktop/Recovered Data/UCLA lecture materials for all subjects/Stats 101B/Island Project/Sleep Data.csv")
+
+# Making 'Age Category' a factor 
+Sleep.Data$Age.Category <- as.factor(Sleep.Data$Age.Category)
+Sleep.Data$Condition<- as.factor(Sleep.Data$Condition)
+
+attach(Sleep.Data)
+```
+
+```{r}
+
+lm.sleep <- lm(Difference ~ Substance + Music + Age.Category + Gender+ Substance*Music , data = Sleep.Data)
+
+summary(lm.sleep)
+anova(lm.sleep)
+  
+#Diagnostic Plots
+par(mfrow=c(2,2))
+plot(lm.sleep)
+
+# Interaction Plot
+par(mfrow= c(1,1)) 
+interaction.plot(Sleep.Data$Substance, Sleep.Data$Music, Sleep.Data$Difference, col = c("red","blue"),ylab = "Melatonin Level", xlab= "Substance", lty= 1, lwd=2)
+
+library (dplyr)
+Sleep_simp <- Sleep.Data %>% group_by(Condition) %>% summarise(mean(Difference))
+names(Sleep_simp)[2] <- "Mean_Difference" 
+ 
+#barplot 
+library(ggplot2)
+
+p <- ggplot(aes(x = Condition, y = Difference), data=Sleep.Data, xlab = "Condition", ylab="Melatonin Level") + geom_boxplot(fill=c("green","blue","red","coral4","darkgray", "forestgreen"))
+p
+
+```
+
+
+```{r}
+t.test(Sleep.Data$Difference ~ Sleep.Data$Music, var.equal= FALSE) 
+# Mean difference in melatonin levels across the two music categories is significant 
+
+t.test(Sleep.Data$Difference ~ Sleep.Data$Age.Category, var.equal= FALSE) 
+# Age is not significant
+
+t.test(Sleep.Data$Difference ~ Sleep.Data$Gender, var.equal= FALSE) 
+# Gender is not significant
+
+
+t.test(Sleep.Data$Difference[Sleep.Data$Music=="Classical"], mu=0, alternative = "two.sided")
+# Can reject, so significance at the level of classical music
+
+t.test(Sleep.Data$Difference[Sleep.Data$Music=="Heavy Metal"], mu=0, alternative = "two.sided")
+# Can reject, significant at the level of Heavy Metal. 
+
+```
+```{r}
+lm.substance <- lm(Difference ~ Substance, data= Sleep.Data)
+
+aov(lm.substance) 
+
+lm.condition <- lm(Difference ~ Condition, data= Sleep.Data)
+
+TukeyHSD(aov(lm.condition))
+plot(TukeyHSD(aov(lm.condition)))
+
+```
+
+
+
+
+

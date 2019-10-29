@@ -1,0 +1,97 @@
+Name,Gender,Age,Pre Treatment,Post Treatment,Difference,Substance,Music ,Condition,Age Category
+Noah Carrasco,Male,55,8.4,6,-2.4,Valerian,Classical,1,2
+Sarah Carrasco,Female,44,15.9,13.6,-2.3,Valerian,Classical,1,2
+Alondra Durand,Female,47,17.6,13.3,-4.3,Valerian,Classical,1,2
+Fernando Durand,Male,53,4,6.2,2.2,Valerian,Classical,1,2
+Ignacio Durand,Male,49,11.6,10,-1.6,Valerian,Classical,1,2
+Jade Durand,Female,47,12.9,14,1.1,Valerian,Classical,1,2
+Anna Kennedy,Female,42,11.8,14.9,3.1,Valerian,Classical,1,2
+Naoki Durand,Male,41,11.5,13.3,1.8,Valerian,Classical,1,2
+Shane Durand,Male,55,5.4,7.8,2.4,Valerian,Heavy Metal ,2,2
+Teo Takahashi,Male,50,9.4,5.3,-4.1,Valerian,Heavy Metal ,2,2
+Maja Hajek,Female,57,4.4,7.3,2.9,Valerian,Heavy Metal ,2,2
+Leah Durand,Female,44,16.4,18.7,2.3,Valerian,Heavy Metal ,2,2
+Daniel Fiala,Male,53,7.6,6.2,-1.4,Valerian,Heavy Metal ,2,2
+Grace Steiner,Female,50,6.3,7.4,1.1,Valerian,Heavy Metal ,2,2
+Benjamin Takahashi,Male,44,12.8,14.7,1.9,Valerian,Heavy Metal ,2,2
+Pia Kennedy,Female,49,9.5,11.6,2.1,Valerian,Heavy Metal ,2,2
+Jaka Lopez,Male,54,5.8,6,0.2,Alcohol,Classical,3,2
+Anna Novak,Female,50,8.1,8.1,0,Alcohol,Classical,3,2
+Antonia Price,Female,45,16.7,15.7,-1,Alcohol,Classical,3,2
+Ava Kennedy,Female,55,7.9,4.9,-3,Alcohol,Classical,3,2
+Tatsuya Steiner,Male,49,7.6,10.3,2.7,Alcohol,Classical,3,2
+Shin Durand,Male,48,10.7,7.9,-2.8,Alcohol,Classical,3,2
+Gen Kennedy,Female,49,6.8,6.9,0.1,Alcohol,Classical,3,2
+Michael Takahashi,Male,43,15.7,15.6,-0.1,Alcohol,Classical,3,2
+Amy,Female,47,18.4,13.6,-4.8,Alcohol,Heavy Metal ,4,2
+Leah,Female,47,11.4,8.5,-2.9,Alcohol,Heavy Metal ,4,2
+Paz,Female,43,16.3,14.7,-1.6,Alcohol,Heavy Metal ,4,2
+Sarah,Female,47,9,9,0,Alcohol,Heavy Metal ,4,2
+Tomas,Male,48,16.5,15.9,-0.6,Alcohol,Heavy Metal ,4,2
+Domen,Male,40,21.1,20.9,-0.2,Alcohol,Heavy Metal ,4,2
+Fabian,Male,47,9.6,15.1,5.5,Alcohol,Heavy Metal ,4,2
+Kazuya,Male,44,12.2,15.7,3.5,Alcohol,Heavy Metal ,4,2
+Tjasa,Female,51,8.2,6,-2.2,None,Classical,5,2
+Ciara,Female,46,15.9,15,-0.9,None,Classical,5,2
+Hina,Female,52,12.1,13.3,1.2,None,Classical,5,2
+Rocio,Female,44,19.1,15.9,-3.2,None,Classical,5,2
+Daiki,Male,50,16.8,13.3,-3.5,None,Classical,5,2
+Dean,Male,51,13.4,14.2,0.8,None,Classical,5,2
+Joaquin,Male,57,6.2,3,-3.2,None,Classical,5,2
+Joshua,Male,48,14.5,15.2,0.7,None,Classical,5,2
+Selina,Female,48,17,18.2,1.2,None,Heavy Metal ,6,2
+Josefa,Female,50,6.4,12.7,6.3,None,Heavy Metal ,6,2
+Eva,Female,46,17.7,15.5,-2.2,None,Heavy Metal ,6,2
+Kana,Female,41,20.7,20.3,-0.4,None,Heavy Metal ,6,2
+Maximiliano,Male,50,9.7,12.4,2.7,None,Heavy Metal ,6,2
+William,Male,43,18.2,20.1,1.9,None,Heavy Metal ,6,2
+Esteban,Male,49,12.4,7.8,-4.6,None,Heavy Metal ,6,2
+Gabriel,Male,48,11.3,16.5,5.2,None,Heavy Metal ,6,2
+Daika,Female,31,33,35.4,2.4,Valerian,Classical,1,1
+Dean,Male,24,36.5,39.8,3.3,Valerian,Classical,1,1
+Antonella,Female,25,55.6,55.7,0.1,Valerian,Classical,1,1
+Darren,Male,22,68.8,68.9,0.1,Valerian,Classical,1,1
+Grace,Female,20,90.4,87.3,-3.1,Valerian,Classical,1,1
+Holly,Female,31,46.8,46.1,-0.7,Valerian,Classical,1,1
+Shota,Male,24,44.7,43.9,-0.8,Valerian,Classical,1,1
+Takahiro,Male,29,49.3,49.1,-0.2,Valerian,Classical,1,1
+Julian,Male,32,37.4,35.1,-2.3,Valerian,Heavy Metal ,2,1
+Manami,Female,24,57,55.5,-1.5,Valerian,Heavy Metal ,2,1
+Momoko,Female,30,45.7,48.3,2.6,Valerian,Heavy Metal ,2,1
+Kaito,Male,29,36.8,36.9,0.1,Valerian,Heavy Metal ,2,1
+Sarah,Female,36,33.7,34.7,1,Valerian,Heavy Metal ,2,1
+Kevin,Male,30,31.4,33.7,2.3,Valerian,Heavy Metal ,2,1
+Nanami,Female,28,56.4,53.7,-2.7,Valerian,Heavy Metal ,2,1
+Marcel,Male,26,44.5,47.1,2.6,Valerian,Heavy Metal ,2,1
+Shauna,Female,40,26.9,26.2,-0.7,Alcohol,Classical,3,1
+Kenta,Male,31,35.8,36,0.2,Alcohol,Classical,3,1
+Leon,Male,25,49.1,44.9,-4.2,Alcohol,Classical,3,1
+Liam,Male,27,51.9,46.4,-5.5,Alcohol,Classical,3,1
+Sophia,Female,23,62.5,58.3,-4.2,Alcohol,Classical,3,1
+Sinead ,Female,23,56.4,61.1,4.7,Alcohol,Classical,3,1
+Julian,Male,27,51.7,52.9,1.2,Alcohol,Classical,3,1
+Maya,Female,35,40,36.7,-3.3,Alcohol,Classical,3,1
+Florencia Carrasco,Female,33,33.3,33.8,0.5,Alcohol,Heavy Metal ,4,1
+Ami Durand,Female,21,67.7,70,2.3,Alcohol,Heavy Metal ,4,1
+Thomas Fiala,Male,36,27.8,24.2,-3.6,Alcohol,Heavy Metal ,4,1
+Daniel McCarthy,Male,20,81.7,83.2,1.5,Alcohol,Heavy Metal ,4,1
+Ema Summers,Female,35,31.1,32.4,1.3,Alcohol,Heavy Metal ,4,1
+Emilie Takahashi,Female,26,47.8,47.2,-0.6,Alcohol,Heavy Metal ,4,1
+Robert Takahashi,Male,20,78.5,82.5,4,Alcohol,Heavy Metal ,4,1
+Shane Takahashi,Male,25,49.9,49.8,-0.1,Alcohol,Heavy Metal ,4,1
+Ariane Bernard,Female,38,27.8,25.6,-2.2,None,Classical,5,1
+Ava Carrasco,Female,21,80.5,81.1,0.6,None,Classical,5,1
+Val Carrasco,Male,25,46.1,46.9,0.8,None,Classical,5,1
+Naoto Durand,Male,38,33.5,31.6,-1.9,None,Classical,5,1
+Jun Kennedy,Male,30,35,33,-2,None,Classical,5,1
+Asuka Lopez,Female,30,45.2,47.2,2,None,Classical,5,1
+Noemie Lopez,Female ,33,26.8,27.7,0.9,None,Classical,5,1
+Yuta Price,Male,30,41.8,35.2,-6.6,None,Classical,5,1
+Laura Carrasco,Female,22,70.8,70,-0.8,None,Heavy Metal ,6,1
+Yuta Carrasco,Male,40,19.7,22.7,3,None,Heavy Metal ,6,1
+Akane Durand,Female ,31,46,47.8,1.8,None,Heavy Metal ,6,1
+Takumi Durand,Male,41,22.2,20.4,-1.8,None,Heavy Metal ,6,1
+Lea Fiala,Female,25,43.8,50.4,6.6,None,Heavy Metal ,6,1
+Nanami Gonzalez,Female ,28,40.9,46.6,5.7,None,Heavy Metal ,6,1
+Kazuki Kennedy,Male,40,21.9,23.4,1.5,None,Heavy Metal ,6,1
+Tobias Steiner,Male,32,37,38.7,1.7,None,Heavy Metal ,6,1
